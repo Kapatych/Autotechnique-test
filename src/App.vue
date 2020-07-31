@@ -1,11 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link :to="{ name: 'RangeInput' }">Range Input</router-link>
+    <div class="container">
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link :to="{ name: 'Users' }">Users List</router-link> |
+        <router-link :to="{ name: 'RangeInput' }">Range Input</router-link>
+      </div>
+      <router-view />
     </div>
-    <router-view />
   </div>
 </template>
 
-<style></style>
+<style scoped>
+.container {
+  max-width: 680px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+</style>

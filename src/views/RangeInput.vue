@@ -1,9 +1,7 @@
 <template>
   <div class="range">
     <h1>Range Input</h1>
-    <div class="container">
-      <RangeInput v-model="rangeValue" />
-    </div>
+    <RangeInput v-model="rangeValue" />
   </div>
 </template>
 
@@ -18,8 +16,4 @@ export default {
 </script>
 
 <style scoped>
-.range {
-  max-width: 600px;
-  margin: 0 auto;
-}
 </style>

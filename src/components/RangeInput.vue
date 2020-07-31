@@ -149,7 +149,7 @@ export default {
   min-width: 75px;
   padding: 0 16px;
   color: white;
-  background-color: #2a4983;
+  background-color: #3949AB;
   border: 0;
   border-radius: 40px;
   cursor: pointer;
