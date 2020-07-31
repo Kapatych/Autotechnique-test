@@ -23,7 +23,6 @@ export default new Vuex.Store({
       try {
         const response = await fetch("https://reqres.in/api/users");
         const commits = await response.json();
-        // console.log(commits);
         commit("setUsers", commits.data);
       } catch (e) {
         console.log(e);
